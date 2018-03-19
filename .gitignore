@@ -1,0 +1,16 @@
+.*.swp
+*~
+.*~
+# IntelliJ
+.idea
+*.iml
+# vscode
+.vscode/*
+
+# Rust
+target/
+Cargo.lock
+**/*.rs.bk
+
+# others
+*.csv
