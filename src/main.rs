@@ -6,6 +6,11 @@ use chrono::NaiveDateTime;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
+    if args.len() < 2 {
+        println!("csv file not given!");
+        return;
+    }
+
     let filename = &args[1];
     // initialize
     let datetime_format = "%Y-%m-%d %H:%M:%S%.f";
