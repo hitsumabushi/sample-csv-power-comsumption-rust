@@ -3,6 +3,12 @@
 Sample rust program to compare python.
 Python version is [power\_consumption.py](tools/power_consumption.py).
 
+# How to run
+
+```shell
+./power-consumption <path to csv>
+```
+
 # Comparison
 
 Generate sample 3,000,000 lines csv file.
